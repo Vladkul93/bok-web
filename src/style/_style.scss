@@ -1,0 +1,61 @@
+@import '../components/Header/Header.scss';
+@import '../components/Products/Products.scss';
+@import '../components/modal/modal.scss';
+@import '../components/Footer/Footer.scss';
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+:root {
+    --accent-color:#D4C17F;
+    --dark-color:#242B33;
+    --background-color: #E5E5E5; 
+    --color-white:#ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.box {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+}
+
+a{
+    text-decoration: none; 
+}
+
+p{
+    margin: 0;
+}
+

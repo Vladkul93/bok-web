@@ -1,0 +1,66 @@
+    
+    
+    @mixin disp-f_cn_cn($fx, $cr, $cnr) {
+        display: $fx;
+        justify-content:  $cr;
+        align-items: $cnr;
+    }
+// @include disp-f_cn_cn(flex, center, center);
+
+    @mixin disp-f_sa($f_x, $sa) {
+        display: $f_x;
+        justify-content: $sa;
+    }
+// @include disp-f_sa(flex, space-around);
+
+    @mixin disp-f_sa_cnt-er ($fl-ex, $spa-nd, $cen-tr) {
+        display: $fl-ex;
+        justify-content: $spa-nd;
+        align-items: $cen-tr;
+    }
+    // @include disp-f_sa_cnt-er (flex, space-around, center);
+
+    @mixin  disp-f_cnr($fl, $ct) {
+        display: $fl;
+        justify-content: $ct;
+    } 
+    // @include disp-f_cnr(flex,center);
+
+    @mixin disp-f_sb($flx, $sb) {
+        display: $flx;
+        justify-content: $sb;
+    }
+    // @include disp-f_sb(flex, space-between);
+
+    @mixin disp-f__sb_cer($flex, $spb, $centrr) {
+        display:$flex;
+        justify-content: $spb;
+        align-items: $centrr;
+    }
+    // @include disp-f__sb_cer(flex, space-between, center);
+
+    @mixin disp-f-se($fle, $se) {
+        display: $fle;
+        justify-content: $se;
+    }
+// @include disp-f-se(flex, space-evenly);
+
+    @mixin disp-f-se__cntr($fl-x, $s-ev, $cn-tr) {
+        display: $fl-x;
+        justify-content: $s-ev;
+        align-items: $cn-tr;
+    }
+// @include disp-f-se__cntr(flex, space-evenly, center);
+
+    @mixin disp-fl-e__al-m-cntr($lx, $cr) {
+        display: $lx;
+        align-items: $cr;
+    }
+    // @include disp-fl-e__al-m-cntr(flex, center);
+
+    @mixin disp-flx__jus-end($fle-xis, $e_nd) {
+        display: $fle-xis;
+        justify-content: $e_nd;
+    }
+
+    // @include disp-flx__jus-end(flex, flex-end);
